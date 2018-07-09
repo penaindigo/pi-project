@@ -25,5 +25,3 @@ function startpost(json){
   
   if (standardstyling) document.write('</li>');
 }
-
-function finished()
