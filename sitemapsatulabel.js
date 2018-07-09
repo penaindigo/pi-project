@@ -1,5 +1,3 @@
-/* sitemap satu label by penaindigo.com */
-
 var numposts = 100;
 var standardstyling = true;
 
@@ -25,3 +23,5 @@ function startpost(json){
   
   if (standardstyling) document.write('</li>');
 }
+
+function finished()
