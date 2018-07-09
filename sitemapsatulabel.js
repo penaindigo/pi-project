@@ -1,3 +1,6 @@
+/* Javascript untuk membuat sitemap otomatis di blogger 
+by www.tirailangit.com */
+
 var numposts = 100;
 var standardstyling = true;
 
@@ -24,4 +27,6 @@ function startpost(json){
   if (standardstyling) document.write('</li>');
 }
 
-function finished()
+function finished(){
+  document.write('<br /><br /><a href="http://www.tirailangit.com/2016/12/cara-membuat-daftar-isi-per-kategori-di.html" style="font-size: 10 px; text-decoration:none; color: #616469;" target="_blank" title="Cara Membuat Sitemap Per-Kategori Di Blogger">Sitemap</a>');
+}
